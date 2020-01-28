@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Coodernadas 1</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    
+  </head>
+  <body>
+    <div class="row">
+
+    <div id="mapid" class="row"></div>
+    <style>
+		#mapid { height: 300px; margin: 20px; }
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+	
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+	<script>
+		var map = L.map('mapid').setView([41.386954, 2.170001], 16);
+		var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
+		var marker = null;
+		
+		marker = L.marker([41.386890, 2.1659152]).bindPopup("<h3>Restaurant Centfocs</h3><p>Restaurante mediterráneo<br>Carrer de Balmes, 16, 08007 Barcelona</p>").addTo(map);
+
+		//map.setView([41.386890, 2.1659152], 17);
+		
+	</script>
+
+  </body>
+</html>
