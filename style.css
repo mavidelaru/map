@@ -1,0 +1,79 @@
+html{
+   width: 100%;
+   height: 100%;
+}
+body{
+    display: block;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center!important;
+}
+.containter-fluid{
+    margin: 0;
+    padding: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#intro{  
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 105px;
+    color: #04b4f9;
+}
+
+#intro::before{
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f3f2f0; 
+}
+
+h1{
+    font-size: 4rem;    
+    text-transform: uppercase;
+    font-style: black;
+    text-align: left;
+    margin: 0 auto!important;
+    letter-spacing: -.02em;
+    padding-left: 5%;
+    font-weight: bolder!important;
+}
+
+span {
+        display: inline-block;
+        font-size: 0.7rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 15px!important;
+        font-weight: 50!important;
+        text-align: center !important;
+        width: 800px;
+        margin: 10px auto!important;
+        max-width: 100%;
+        color: #9b9fa1;
+}
+
+#mapid { 
+    height: 300px; 
+    padding-top: 60px; 
+    width: 80%;
+    margin-top: -4rem;
+}
+
+#mapid::before{
+    box-sizing: border-box;
+}
+
+#inputs{
+     display:none;
+     margin-top: 1.5rem;
+ }
