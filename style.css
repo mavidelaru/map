@@ -39,7 +39,7 @@ body{
 }
 
 h1{
-    font-size: 4rem;    
+    font-size: 3rem !important;    
     text-transform: uppercase;
     font-style: black;
     text-align: center;
