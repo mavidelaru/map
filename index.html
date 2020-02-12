@@ -4,12 +4,9 @@
 
   <meta charset="UTF-8">
   <title>Your map</title>
- 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-
   <link rel="stylesheet" href="style.css">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="icon" href="https://image.flaticon.com/icons/svg/2491/2491796.svg" type="image/svg" />
@@ -23,7 +20,7 @@
     <!--HEADER-->
     <header id="intro" class="row ">
       <div class="col">
-        <h1>Save your favorites locations</h1>
+        <h1 class="mb-5">Save your favorites locations</h1>
       </div>
     </header>
 
@@ -43,7 +40,7 @@
 
     <!--TEXT AREA-->
     <div class="row justify-content-center" id="inputs">
-      <div class="col-9 col-md-5">
+      <div class="mt-4 col-9 col-md-5">
         <textarea class="form-control " id="description" rows="4" placeholder="Description" onkeyup="writting()"
           onfocusout="reset()"></textarea>
       </div>
